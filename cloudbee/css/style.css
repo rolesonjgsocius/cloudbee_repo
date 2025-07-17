@@ -1,0 +1,295 @@
+.text_brown{
+    color: #451600;
+    font-weight: 700;
+}
+.text_yellow{
+    color: #E6B51B;
+}
+.text_bold_yellow{
+    color: #FFA800;
+}
+.header .logo{
+    width: 250px;
+    padding: 3%;
+}
+.nav_menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 3%;
+}
+.nav_menu li a,.header a{
+    text-decoration: none;
+}
+.nav_menu li a:hover, .header  a:hover{
+      text-decoration: none;
+}
+.banner_card_home{
+    background: url('/images/Group 39 (1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 5%;
+    margin: 10px 0;
+}
+.banner_card{
+    background: url('/images/banner_cloud.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 5%;
+    margin: 10px 0;
+}
+.banner_card_buzz{
+    background: url('/images/buzz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 5%;
+    margin: 10px 0;
+}
+ .yellow_bg{
+    background: url('/images/ylww_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 4% 0;
+    padding-bottom: 11%;
+} 
+
+.feature_row ul{
+    list-style-type: none;
+}
+.feature_row ul li p{
+    margin-bottom: 0;
+}
+.feature_row ul li{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+.feature_row ul li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.gray_card_bg{
+    background: #EFEFEF;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    border-radius: 64px;
+    padding: 4% 25px 7% 25px;
+    margin: 5% 10px;
+}
+.use_case{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+}
+.use_case .card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 2%;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    border-radius: 24px;
+}
+.use_case .icon_Card_home{
+    width: 150px;
+    height: 70px;
+    text-align: center;
+}
+.use_case .icon_Card{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+.use_case .h6_head{
+    /* font-family: 'Acid Grotesk'; */
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.testimonial{
+    padding-bottom: 10px;
+}
+.testimonial_p{
+    font-weight: 600;
+    padding: 8% 7%;
+}
+.yellow_card_bg_home{
+    background: #EAB518;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    border-radius: 64px;
+    text-align: center;
+    padding: 4% 25px 7% 25px;
+    margin: 18px 10px;
+}
+.yellow_card_bg{
+    background: #EAB518;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    border-radius: 64px;
+    padding: 4% 25px 7% 25px;
+    margin: 10px 10px;
+}
+.yellow_card_bg ul{
+    list-style-type: none;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    padding: 33px 6%;
+    margin: 4% 3%;
+}
+.yellow_card_bg ul li{
+    display: flex;
+    align-items: center;
+}
+.yellow_card_bg ul li img{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    margin-right: 10px;
+}
+.white_card{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20.8px 6px #00000026;
+    padding: 33px 6%;
+    margin: 4% 3%;
+}
+.globe_bg{
+    background: url('/images/globe_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+    padding: 8% 4%;
+}
+.globe_bg label{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.globe_bg input, .globe_bg select{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ebe6e6dc;
+    margin-bottom: 26px;
+    width: 100%;
+}
+.trans_card{
+    backdrop-filter: blur(9.199999809265137px);
+    background: #FFA80033;
+    padding: 10% 5%;
+    border-radius: 24px;
+}
+.trans_card button{
+    background: #FFA800;
+    padding: 15px;
+    border-radius: 100px;
+    border: 0;
+}
+.trans_card button .round_brown{
+    background: #451600;
+    padding: 14px 13px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.footer{
+    background: url('/images/grup_formt.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+
+}
+.footer_col{
+    padding: 8% 8% 0px 8%;
+}
+.brown_card{
+    background: #451600;
+    border-radius: 16px;
+    padding: 4%;
+    text-align: center;
+    color: #FFA800;
+}
+.ylw_btn{
+    background: #FFA800;
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: 0;
+    border-radius: 16px;
+}
+.yellow_button_custom {
+     height: 100% !important;
+    min-height: 200px;
+
+}
+.line_bottom{
+    width: 100%;
+    border-bottom: 1px solid #0C1E2180;
+    padding-top: 40px;
+}
+
+.business_solutionsection ul{
+    list-style: none;
+    display: flex
+;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.business_solutionsection ul li{
+margin-bottom: 10px;
+background: #EAB518;
+padding: 10px;
+border-radius: 10px;
+color: #000 !important;
+text-align: center;
+}
+.business_solutionsection ul li a {
+   color: #000 !important; 
+   font-weight: 700;
+}
+
+
+
+
+ .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+            opacity: 0.7;
+        }
+        .carousel-indicators {
+            bottom: -50px;
+        }
+        .carousel-indicators button {
+            background-color: #4A2C0B;
+        }
+        .carousel-indicators .active {
+            background-color: #FFC107;
+        }
+             .banner_card_home {
+            background: url('/images/Group 39 (1\).png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 15% 5%;
+            margin: 10px 0;
+            min-height: 400px;
+        }
+
+        .Aboutus_caro ul li{
+margin-bottom: 10px;
+        }
+          .Aboutus_caro {
+            padding-top: 15px !important;
+          }
+
+          .testimonial-home  .yellow_card_bg_home ,   .testimonial-home   .aboutusrightimage{
+   min-height: 93%;
+          }
+          .testimonial-home{
+            margin-top: 50px;
+          }
+

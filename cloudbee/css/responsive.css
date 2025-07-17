@@ -1,0 +1,11 @@
+#landing_page{
+overflow-x: hidden;
+}
+@media (max-width:800px) {
+    .nav_menu{
+        flex-wrap: wrap;
+    }
+    .use_case{
+        grid-template-columns:auto;
+    }
+}

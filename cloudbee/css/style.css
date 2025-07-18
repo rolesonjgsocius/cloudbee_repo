@@ -293,3 +293,7 @@ margin-bottom: 10px;
             margin-top: 50px;
           }
 
+          .navbar-nav a {
+            color: #451600;
+    font-weight: 700;
+          }
